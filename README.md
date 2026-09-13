@@ -1,10 +1,19 @@
 <div align="center">  
 
-![Curso](https://img.shields.io/badge/Bases_de_Datos_II-pink)
+![Curso](https://img.shields.io/badge/Curso-IC4302_Bases_de_Datos_II-pink)
+![Tarea](https://img.shields.io/badge/II_Semestre_2026-pink)
 
 </div>
 
 # Tarea#1 - API
+
+**Nombre y carné de los integrantes:** Deywenie Smith Gregory | 2024096722
+
+**Estado del proyecto:** en veremos
+
+**Enlace del video:**
+
+## Descripción del trabajo
 Esta tarea consiste en la creación de una arquitectura en la cual la comunicación entre la aplicación y la base de datos se encuentra descentralizada. Esto se realizará mediante el desarrollo de una API que permita la comunicación con una base de datos en SQL Server.
 
 ## Características del producto
