@@ -1,0 +1,7 @@
+CREATE LOGIN tbd1 
+WITH PASSWORD = 'Quité la contraseña1.';
+GO
+
+CREATE USER tbd1
+FOR LOGIN tbd1;
+GO
