@@ -7,11 +7,11 @@
 
 # Tarea#1 - API
 
-**Nombre y carné de los integrantes:** Deywenie Smith Gregory | 2024096722
+### Nombre y carné de los integrantes: Deywenie Smith Gregory | 2024096722
 
-**Estado del proyecto:** en veremos
+### Estado del proyecto: en veremos
 
-**Enlace del video:**
+### Enlace del video:
 
 ## Descripción del trabajo
 Esta tarea consiste en la creación de una arquitectura en la cual la comunicación entre la aplicación y la base de datos se encuentra descentralizada. Esto se realizará mediante el desarrollo de una API que permita la comunicación con una base de datos en SQL Server.
@@ -21,7 +21,9 @@ Esta tarea consiste en la creación de una arquitectura en la cual la comunicaci
 - El motor de bases de datos utilizado es SQL Server 
 - La base de datos utilizada es `AdventureWorks2025`.
 
-## Proceso de instalación del motor de bases de datos
+## Configuración del entorno
+
+### Instalación de SQL Server
 Para la instalación del motor de bases de datos se siguieron los pasos descritos en el sitio web oficial de Microsoft: [Inicio rápido: Instalación de SQL Server y creación de una base de datos en Ubuntu](https://learn.microsoft.com/es-es/sql/linux/install-upgrade/quickstart-install-ubuntu?view=sql-server-ver17&tabs=ubuntu2004%2C2025ubuntu2204%2Codbc-ubuntu-1804).
 
 Además, se utilzó el siguiente video como guía: [Cómo Instalar SQL Server en Ubuntu Linux y Conectarlo con SSMS 2026](https://youtu.be/aMss5U2xnNc?si=use-sT03DfwAtj_p)
@@ -53,7 +55,7 @@ sudo /opt/mssql/bin/mssql-conf setup
 ```
 systemctl status mssql-server --no-pager
 ```
-##Instalación de `sqlsmd`
+### Instalación de `sqlsmd`
 
 Además, se instaló `sqlcmd`, herramienta que permite ejecutar instrucciones de Transact-SQL, procedimientos almacenados y archivos de script desde la terminal.
 
@@ -71,7 +73,7 @@ add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.
 apt-get update
 apt-get install sqlcmd
 ```
-## Conexión a la instancia desde Windows
+### Conexión a la instancia desde Windows
 Una vez instalado y configurado SQL Server en la máquina virtual con Ubuntu, se realizó la conexión a la instancia desde Windows utilizando SQL Server Management Studio.
 
 Para establecer la conexión se abrió SQL Server Management Studio y en la ventana de conexión se ingresaron los siguientes datos:
@@ -88,7 +90,7 @@ Si la conexión se realiza correctamente, SSMS permite visualizar y administrar 
 Esta conexión permite trabajar desde Windows con el motor de SQL Server instalado en Ubuntu, por lo que las instrucciones ejecutadas desde SSMS son procesadas por la instancia que se encuentra dentro de la máquina virtual.
 
 
-## Instalalación y restuaración de la BD
+### Instalación y restuaración de la BD
 La base de datos AdventureWorks2025 fue obtenida en el sitio web oficial de Microsoft: [AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms). 
 
 El archivo descargado fue `AdventureWorks2025.bak`. Este archivo se descargó directamente en la máquina virtual con Ubuntu, donde se encuentra instalado el motor de SQL Server.
@@ -96,3 +98,10 @@ El archivo descargado fue `AdventureWorks2025.bak`. Este archivo se descargó di
 Una vez descargado el archivo de respaldo, se realizó la restauración de la base de datos desde Windows mediante la conexión a la instancia de SQL Server que se encuentra ejecutandose en la máquina virtual.
 
 Los scripts utilizados para realizar la restuaración de la base de datos se encuentra en la carpeta [Scripts sql](https://github.com/deysmith/Tarea1-Bases-de-Datos-II/tree/main/Scripts%20sql).
+
+## Creación de la API
+### Instalación de `node.js` y dependencias
+### Configuración de variables de entorno
+### Estructura del proyecto
+### Stored Procedures
+### Endpoints

@@ -1,8 +1,8 @@
 /*
-Elimina un nuevo número telefónico asociado a una persona
+Elimina un número telefónico 
 
 Entradas:
-    - @Telefono - nvarchar(25): Número telefónico que se desea registrar.
+    - @Telefono - nvarchar(25): Número telefónico que se desea eliminar.
 
 Salidas:
     - No retorna datos. Elimina un registro de Person.PersonPhone  
