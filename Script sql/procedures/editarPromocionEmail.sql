@@ -13,7 +13,7 @@ Restricciones:
     - @BusinessEntity debe existir en Person.Person.
     - @PromocionEmail debe ser 0, 1 o 2.
 */
-CREATE PROCEDURE EditarPromicionEmail
+CREATE PROCEDURE EditarPromocionEmail
     @BusinessEntity int,
     @PromocionEmail int
 AS

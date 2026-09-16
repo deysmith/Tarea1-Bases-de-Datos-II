@@ -2,7 +2,7 @@
 GRANT EXECUTE ON OBJECT::dbo.AgregarNumeroTelefonico
 TO tbd1
 
-GRANT EXECUTE ON OBJECT::dbo.EditarPromicionEmail
+GRANT EXECUTE ON OBJECT::dbo.EditarPromocionEmail
 TO tbd1
 
 GRANT EXECUTE ON OBJECT::dbo.EliminarNumeroTelefonico

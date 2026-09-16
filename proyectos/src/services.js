@@ -36,7 +36,7 @@ export async function editarPromocionEmail(businessE, promocionE) {
   await connection.request()
     .input("BusinessEntity", sql.Int, businessE)
     .input("PromocionEmail", sql.Int, promocionE)
-    .execute("EditarPromicionEmail")
+    .execute("EditarPromocionEmail")
 }
 
 /**

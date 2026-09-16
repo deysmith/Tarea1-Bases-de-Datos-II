@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(router)
 
-app.listen(process.env.API_PORT, () => {
+app.listen(process.env.API_PORTT, () => {
     console.log("Shes alive")
 })
 
