@@ -11,7 +11,7 @@
 
 ### Estado del proyecto: Muy bueno
 
-### Enlace del video:
+### Enlace del video: https://youtu.be/DAF5SfpWR0w
 
 ## Descripción del trabajo
 Esta tarea consiste en la creación de una arquitectura en la cual la comunicación entre la aplicación y la base de datos se encuentra descentralizada. Esto se realizará mediante el desarrollo de una API que permita la comunicación con una base de datos en SQL Server.
@@ -132,7 +132,7 @@ Estas dependencias se utilizan para las siguientes funciones:
 ### Configuración de variables de entorno
 Para configurar los datos necesarios para realizar la conexión entre la API y SQL Server, se utilizó un archivo `.env`. En este archivo se almacenan las variables de configuración de la base de datos y del puerto utilizado por la API.
 
-El archivo `.env` se encuentra dentro de la carpeta [proyectos]() y contiene la siguiente estructura:
+El archivo `.env` se encuentra dentro de la carpeta [proyectos](https://github.com/deysmith/Tarea1-Bases-de-Datos-II/tree/3f68989bdd10a203ab938bf5f012000da329ade2/proyectos) y contiene la siguiente estructura:
 
 ```javascript
 DB_USER=usuario
